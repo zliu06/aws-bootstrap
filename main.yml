@@ -360,6 +360,7 @@ Resources:
             yum:
               ruby: []
               jq: []
+              wget: []
           files:
             /home/ec2-user/install:
               source: !Sub "https://aws-codedeploy-${AWS::Region}.s3.amazonaws.com/latest/install"
